@@ -1,41 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Bioharmonic</title>
-    <link rel="stylesheet" href="css/style.css">
-        <script src="js/jquery.js"></script>
-    <script src="js/queryloader2.min.js" type="text/javascript"></script>
-    <script>
-      window.addEventListener('DOMContentLoaded', function() {
-        new QueryLoader2(document.querySelector("body"), {
-            barColor: "#efefef",
-            backgroundColor: "#111",
-            percentage: true,
-            barHeight: 1,
-            minimumTime: 200,
-            fadeOutTime: 1000
-        });
-    });
-      $(document).ready(function () {
-      $("body").queryLoader2();
-      });
-    </script>
-  </head>
-  <body>
+
+<head>
+  <title>Bioharmonic</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
   <div class="wrapper">
     <audio id="forest" preload="auto" loop src="sound/FOREST.mp3"></audio>
     <audio id="pad" preload="auto" loop src="sound/PAD.mp3"></audio>
     <audio id="rain" preload="auto" loop src="sound/RAIN.mp3"></audio>
     <audio id="thunder" preload="auto" loop src="sound/THUNDER.mp3"></audio>
     <audio id="wind" preload="auto" loop src="sound/WIND.mp3"></audio>
-
     <button onclick="document.getElementById('forest').play()">FOREST</button>
     <button onclick="document.getElementById('pad').play()">PAD</button>
     <button onclick="document.getElementById('thunder').play()">RAIN</button>
     <button onclick="document.getElementById('thunder').play()">THUNDER</button>
     <button onclick="document.getElementById('wind').play()">WIND</button>
-
+    <script src="js/jquery.js"></script>
     <script src="js/app.js"></script>
   </div>
-  </body>
+</body>
+
 </html>
