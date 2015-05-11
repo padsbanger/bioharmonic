@@ -1,0 +1,12 @@
+button {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  float:left;
+}
+
+.wrapper {
+  margin: 10% auto;
+  width: 440px;
+}
