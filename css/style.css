@@ -4,6 +4,14 @@ button {
   height: 100px;
   margin: 20px;
   float:left;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+}
+
+button.active {
+  background: red;
+  color: white;
 }
 
 .wrapper {
