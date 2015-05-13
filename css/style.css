@@ -1,20 +1,84 @@
 button {
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
   margin: 20px;
-  float:left;
+  float: left;
   border: none;
   outline: none;
   border-radius: 50px;
+  background: none;
 }
 
-button.active {
-  background: red;
-  color: white;
-}
+button.active {}
 
 .wrapper {
-  margin: 10% auto;
-  width: 440px;
+  margin: 1% auto;
+  width: 760px;
+  position: relative;
+}
+
+#forest,
+#pad,
+#rain,
+#thunder,
+#wind {
+  position: absolute;
+  background-repeat: no-repeat;
+  transition: background-image .9s ease-in-out;
+}
+
+#forest {
+  background-image: url("../img/3.png");
+  top: 200px;
+  left: 30%;
+  z-index: 9999;
+}
+
+#forest.active, #forest:hover {
+  background-image: url("../img/3-k.png");
+}
+
+#pad {
+  background-image: url("../img/1.png");
+  left: 0;
+  top: 0;
+}
+
+#pad.active, #pad:hover {
+  background-image: url("../img/1-k.png");
+}
+
+#rain {
+  background-image: url("../img/2.png");
+  right: 0;
+  top: 0;
+}
+
+#rain.active, #rain:hover {
+  background-image: url("../img/2-k.png");
+}
+
+#thunder {
+  background-image: url("../img/4.png");
+  top: 400px;
+  left: 0;
+}
+
+#thunder.active, #thunder:hover {
+  background-image: url("../img/4-k.png");
+  top: 400px;
+  left: 0;
+}
+
+#wind {
+  background-image: url("../img/5.png");
+  right: 0;
+  top: 400px;
+}
+
+#wind.active, #wind:hover {
+  background-image: url("../img/5-k.png");
+  right: 0;
+  top: 400px;
 }
