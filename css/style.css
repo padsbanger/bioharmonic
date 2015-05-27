@@ -29,56 +29,56 @@ button.active {}
 }
 
 #forest {
-  background-image: url("../img/3.png");
+  background-image: url("../img/3.jpg");
   top: 200px;
   left: 30%;
   z-index: 9999;
 }
 
 #forest.active, #forest:hover {
-  background-image: url("../img/3-k.png");
+  background-image: url("../img/3-k.jpg");
 }
 
 #pad {
-  background-image: url("../img/1.png");
+  background-image: url("../img/1.jpg");
   left: 0;
   top: 0;
 }
 
 #pad.active, #pad:hover {
-  background-image: url("../img/1-k.png");
+  background-image: url("../img/1-k.jpg");
 }
 
 #rain {
-  background-image: url("../img/2.png");
+  background-image: url("../img/2.jpg");
   right: 0;
   top: 0;
 }
 
 #rain.active, #rain:hover {
-  background-image: url("../img/2-k.png");
+  background-image: url("../img/2-k.jpg");
 }
 
 #thunder {
-  background-image: url("../img/4.png");
+  background-image: url("../img/4.jpg");
   top: 400px;
   left: 0;
 }
 
 #thunder.active, #thunder:hover {
-  background-image: url("../img/4-k.png");
+  background-image: url("../img/4-k.jpg");
   top: 400px;
   left: 0;
 }
 
 #wind {
-  background-image: url("../img/5.png");
+  background-image: url("../img/5.jpg");
   right: 0;
   top: 400px;
 }
 
 #wind.active, #wind:hover {
-  background-image: url("../img/5-k.png");
+  background-image: url("../img/5-k.jpg");
   right: 0;
   top: 400px;
 }
